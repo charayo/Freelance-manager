@@ -1,0 +1,132 @@
+body {
+  padding: 0;
+  background-color: #141625;
+  /* margin: 0; */
+}
+
+.top-bar {
+  background-color: #1f213a;
+  margin: 0;
+}
+
+.top-left {
+  border-radius: 35%;
+  /* background-color: #7c5dfa; */
+}
+
+.my-new {
+  /* border-radius: 30%; */
+  background-color: #7c5dfa;
+}
+
+#invoiceCount {
+  margin-top: -5px;
+  font-size: small;
+}
+
+.plus-rnd {
+  margin: 0;
+  background-color: white;
+  border-radius: 50%;
+  padding: 4.5px 10px;
+  color: #7c5dfa;
+  font-weight: bolder;
+}
+
+.my-card {
+  border-radius: 10px;
+  background-color: #1f213a;
+  /* padding: 50px; */
+  height: 120px;
+}
+
+.modal-body input {
+  background-color: #1f213a;
+  color: #fff;
+}
+
+.modal-body input:disabled {
+  background-color: #1f213a;
+  color: #fff;
+}
+
+.modal-body input::placeholder {
+  /* background-color: #1f213a; */
+  color: #fff;
+}
+
+.my-menu-icon {
+  color: #7c5dfa;
+}
+
+/* For my Sidebar */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0e0f1a;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+/* My sidebar links */
+.sidebar span {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar span:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+  margin: 0;
+}
+
+.calc-disp {
+  border: 2px solid #7c5dfa;
+  height: 120px;
+  width: 100vw;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  word-wrap: break-word;
+  justify-content: space-around;
+}
+.btn-pad {
+  justify-content: space-around;
+}
+
+.btn-calc > span {
+  padding: 20px;
+  background-color: #7c5dfa;
+  /* margin-right: 5px; */
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+
+  .sidebar a {
+    font-size: 18px;
+  }
+}
