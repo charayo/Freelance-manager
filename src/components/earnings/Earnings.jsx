@@ -21,7 +21,7 @@ function Earnings({ pasdClick }) {
   };
   return (
     <div>
-      <Header myClick={pasdClick} />
+      <Header myClick={pasdClick} numEarn={order.length}/>
       <Form store={handleStatePush} />
       <div className="container">
         {order.map((singOrder, index) => (

@@ -44,6 +44,12 @@ function Form({ store }) {
     };
     // console.log(eData);
     store(eData);
+    setAcntName('');
+    setAmount('');
+    setDueDate('');
+    setExRes('');
+    setNote('');
+    setRate('');
     window.$("#myModal").modal("hide");
   };
   return (

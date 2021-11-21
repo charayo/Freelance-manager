@@ -60,7 +60,7 @@ function Card(props) {
               bootstrap + " btn bg-transparent text-white mt-4 status-btn "
             }
           >
-            <span className={icon}></span>{payStatus}
+            <span className={icon}> </span> {payStatus}
           </button>
         </div>
       </div>

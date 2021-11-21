@@ -1,14 +1,14 @@
 import React from "react";
 
 function Header(props) {
-    const {myClick} = props;
+    const {myClick, numEarn} = props;
   return (
     <div className="row pt-3 pb-3 pr-1 pl-1 m-0 container">
       <div className="col-4 p-0">
         <div className="row ml-2">
           <h4 className="text-white ">Earnings</h4>
           <p className="text-white" id="earnCount">
-            0 payment
+            {numEarn} payment
           </p>
         </div>
       </div>
